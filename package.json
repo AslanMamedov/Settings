@@ -1,0 +1,29 @@
+{
+  "name": "settings3.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/js/*.js --color",
+    "lint:fix": "eslint src/js/*.js --fix --color"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.5.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-prettier": "4.0.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.1.4",
+    "pug-lint": "2.6.0",
+    "stylelint": "14.2.0",
+    "stylelint-config-rational-order": "0.1.2",
+    "stylelint-config-standard": "24.0.0",
+    "stylelint-config-standard-scss": "3.0.0",
+    "stylelint-order": "5.0.0",
+    "stylelint-scss": "4.1.0"
+  }
+}
